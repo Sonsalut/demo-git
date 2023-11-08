@@ -16,5 +16,11 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var myView: UIView!
     
+    
+    
+    @IBAction func myButton(_ sender: Any) {
+        myView.backgroundColor = .yellow
+    }
+    
 }
 
