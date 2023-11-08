@@ -16,5 +16,9 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var myView: UIView!
     
+    func setMyView() {
+        myView.backgroundColor = .red
+    }
+    
 }
 
